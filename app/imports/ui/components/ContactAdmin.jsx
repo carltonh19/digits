@@ -12,9 +12,7 @@ const ContactAdmin = ({ contact }) => (
     </Card.Header>
     <Card.Body>
       <Card.Text>{contact.description}</Card.Text>
-      <footer className="blockquote-footer">
-        {contact.owner}
-      </footer>
+      <footer className="blockquote-footer">{contact.owner}</footer>
     </Card.Body>
   </Card>
 );
